@@ -4,7 +4,7 @@
 
 A Bilingual (English + বাংলা) Guide · Beginner → Intermediate → Research Level
 
-**Version 4.0** · 35 Sections · 61 Academic References · LaTeX-Typeset Throughout
+**Version 4.0** · 34 Sections · 61 Academic References · LaTeX-Typeset Throughout
 
 ------------------------------------------------------------------------
 
@@ -89,7 +89,6 @@ You are free to **share** this handbook (copy and redistribute it in any medium)
 32. Glossary of Key Terms
 33. Final Cheat Sheet — How to Read Any ML Research Paper
 34. References & Further Reading
-35. How to Cite This Handbook
 
 # 1. MACHINE LEARNING FOUNDATIONS / মেশিন লার্নিং ফাউন্ডেশনস
 
@@ -2727,26 +2726,3 @@ All references below are real, verifiable published works. Where this handbook s
 </div>
 
 </div>
-
-# 35. HOW TO CITE THIS HANDBOOK / এই হ্যান্ডবুক কীভাবে সাইট করবেন
-
-If this handbook helped your work, please cite it as:
-
-    MD Khalid Hasan. (2026). The Machine Learning + Research Paper Reading + Critical Analysis
-    + Research Gap Identification Handbook: A Bilingual (English–Bangla) Guide.
-    GitHub repository. [URL]
-
-BibTeX:
-
-``` bibtex
-@misc{ml_research_handbook_2026,
-  author       = {MD Khalid Hasan},
-  title        = {The Machine Learning + Research Paper Reading + Critical Analysis
-                  + Research Gap Identification Handbook: A Bilingual (English--Bangla) Guide},
-  year         = {2026},
-  howpublished = {GitHub repository},
-  url          = {[URL]}
-}
-```
-
-> Note on the source textbooks / পাঠ্যপুস্তক সম্পর্কে দ্রষ্টব্য: This handbook explains concepts in its own words and does not reproduce text, figures, tables, or worked examples from any copyrighted textbook. Readers who want the full treatment of any topic are encouraged to consult the primary sources listed above directly. এই হ্যান্ডবুক নিজের ভাষায় ধারণাগুলো ব্যাখ্যা করে এবং কোনো কপিরাইটযুক্ত পাঠ্যপুস্তকের লেখা, চিত্র, টেবিল বা উদাহরণ পুনরুৎপাদন করে না। কোনো বিষয়ের পূর্ণাঙ্গ আলোচনার জন্য উপরের মূল উৎসগুলো সরাসরি দেখার পরামর্শ দেওয়া হচ্ছে।

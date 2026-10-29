@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the handbook using the preferred citation below."
+title: ML Research Handbook
+authors:
+  - family-names: Hasan
+    given-names: MD Khalid
+version: "4.0"
+url: "https://github.com/khalidhasan7343/ml-research-handbook"
+license: CC-BY-NC-ND-4.0
+preferred-citation:
+  type: manual
+  title: ML Research Handbook
+  authors:
+    - family-names: Hasan
+      given-names: MD Khalid
+  version: "4.0"
+  url: "https://github.com/khalidhasan7343/ml-research-handbook"

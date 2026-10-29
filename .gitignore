@@ -26,3 +26,9 @@ __pycache__/
 .pytest_cache/
 *.py[cod]
 .venv/
+
+# Private preservation copies and local publication validation
+/SHA256SUMS.original.txt
+/docs/PUBLISHING_CHECKLIST.md
+/docs/README.original.md
+/.publishing-review/

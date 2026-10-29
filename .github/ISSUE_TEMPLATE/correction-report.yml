@@ -1,0 +1,88 @@
+name: Correction report / সংশোধনের প্রতিবেদন
+description: Report an error, unclear explanation, reference problem, or translation issue.
+title: "[Correction] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the handbook. English and Bangla reports are welcome.
+        Fill in what you know; you do not need to know the correction to report a problem.
+        বাংলা বা ইংরেজিতে সমস্যাটি জানান। সংশোধন জানা না থাকলেও প্রতিবেদন দিতে পারেন।
+  - type: dropdown
+    id: error-category
+    attributes:
+      label: Error category / সমস্যার ধরন
+      options:
+        - Factual error
+        - Mathematical error or equation
+        - Reference or citation
+        - English–Bangla translation
+        - Unclear explanation
+        - Typographical or formatting error
+        - Accessibility or navigation
+        - Other handbook issue
+    validations:
+      required: true
+  - type: input
+    id: section-number
+    attributes:
+      label: Section number / সেকশন নম্বর
+      description: Enter the section or subsection, or write “front matter” or “not sure”.
+      placeholder: "Example: 5.2, Section 28, or front matter"
+    validations:
+      required: true
+  - type: input
+    id: page-number
+    attributes:
+      label: Page number (optional) / পৃষ্ঠা নম্বর
+      description: Include the format if useful; Markdown has no fixed page numbers.
+      placeholder: "Example: PDF page 29"
+    validations:
+      required: false
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Where did you find it? / কোন সংস্করণে
+      options:
+        - Markdown (Read Online)
+        - PDF
+        - DOCX (Word)
+        - README or repository documentation
+        - Multiple formats or not sure
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of issue / সমস্যার বিবরণ
+      description: Explain what seems incorrect or unclear and why.
+    validations:
+      required: true
+  - type: textarea
+    id: current-text
+    attributes:
+      label: Current text or equation / বর্তমান লেখা বা সমীকরণ
+      description: Quote only the short passage or equation needed to locate the issue.
+    validations:
+      required: false
+  - type: textarea
+    id: suggested-correction
+    attributes:
+      label: Suggested correction / সংশোধনের পরামর্শ
+      description: Optional; leave blank if you are unsure of the correction.
+    validations:
+      required: false
+  - type: textarea
+    id: supporting-reference
+    attributes:
+      label: Supporting reference / সহায়ক সূত্র
+      description: Add a paper, DOI, stable URL, or textbook page that helps verify the issue.
+    validations:
+      required: false
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: Additional comments / অতিরিক্ত মন্তব্য
+      description: Add any other relevant context, including the version if known.
+    validations:
+      required: false

@@ -1,5 +1,11 @@
 # Documentation text uses consistent line endings; keep binaries unchanged
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
 *.md text eol=lf
 *.txt text eol=lf
 *.pdf binary
 *.docx binary
+*.yml text eol=lf
+*.yaml text eol=lf
+*.cff text eol=lf
