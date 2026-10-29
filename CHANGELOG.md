@@ -4,6 +4,7 @@ This file records repository preparation and handbook maintenance. Preparation n
 
 ## Unreleased — public repository preparation
 
+- Removed the dedicated README citation section and its related guidance while preserving `CITATION.cff`. Consolidated the paper-analysis and research-gap workflow, made GitHub Issues the sole contact channel, and explicitly included formatting problems in the bilingual feedback guidance.
 - Reworked the README with immediate access to Markdown, PDF, and DOCX; a 34-section contents guide; learning paths; and bilingual feedback guidance.
 - Removed the obsolete numbered Section 35 and its contents entry from Markdown; corrected its cover count to 34. Sections 1–34, including the references, were preserved.
 - Verified that the supplied PDF has 101 pages and 34 sections; left the PDF unchanged.

@@ -20,7 +20,7 @@ ML Research Handbook is a personal academic study and reference project for stud
 | PDF | **[Read / Download PDF](editions/ML_Research_Handbook.pdf)** | Read the 101-page edition offline or print it. GitHub's file viewer offers a download option. |
 | Word | **[Download DOCX](editions/ML_Research_Handbook.docx)** | Download the Word edition for personal study and annotation. |
 
-All three editions contain **34 numbered sections**, ending with **References & Further Reading**. The handbook identifies its content version as **4.0**. Citation guidance is provided below and in [CITATION.cff](CITATION.cff).
+All three editions contain **34 numbered sections**, ending with **References & Further Reading**. The handbook identifies its content version as **4.0**.
 
 ## About the Handbook / হ্যান্ডবুক সম্পর্কে
 
@@ -101,21 +101,17 @@ The groupings below are reading aids; the manuscript retains its original sectio
 | Want a complete case study | Read 26 alongside the frameworks in 8–17. |
 | Planning experiments or a submission | Return to 5–6, 22–23, and 30–31. |
 
-## Research Paper Analysis Workflow / পেপার বিশ্লেষণের ধাপ
+## Paper Analysis & Research Gap Workflow / পেপার বিশ্লেষণ ও রিসার্চ গ্যাপের ধাপ
 
 1. **Orient yourself.** Use the three-pass method in Section 8 to understand the problem, contribution, and paper structure.
 2. **Map the argument.** Apply the abstract and introduction guides in Sections 9–10; compare related work using Section 11.
 3. **Examine the evidence.** Review methods, datasets, baselines, metrics, and experiments using Sections 5–6 and 16–17.
 4. **Record what matters.** Use the note-taking and one-page summary templates in Sections 18 and 24.
-5. **Evaluate what comes next.** Check reproducibility with Section 22 and investigate a possible research gap using Sections 12–15 and 25.
+5. **Develop a research direction.** Check reproducibility with Section 22, verify a possible gap using Sections 12–15 and 25, then develop a topic and testable question using Sections 19–21.
 
-প্রথম পাঠে সামগ্রিক ধারণা নিন, পরের পাঠে পদ্ধতি ও প্রমাণ যাচাই করুন, তারপর নিজের নোটে সীমাবদ্ধতা ও সম্ভাব্য গবেষণা প্রশ্ন লিখুন। Section 26-এ এই কাঠামোগুলোর প্রয়োগ দেখানো হয়েছে।
+A limitation in one paper is a starting point for investigation. Compare related studies and verify the evidence before treating it as a research gap. Section 26 shows the frameworks applied to a complete case study.
 
-## Research Gap Identification / রিসার্চ গ্যাপ শনাক্তকরণ
-
-A limitation in one paper is a starting point for investigation. Use the distinctions in Section 14, compare related studies, and follow the verification steps in Sections 13 and 15 before treating an observation as a research gap. Section 25 provides a final checklist; Sections 19–21 connect a supported gap to a research topic, question, and novelty assessment.
-
-একটি পেপারের সীমাবদ্ধতা দেখেই সেটিকে রিসার্চ গ্যাপ ধরে নেবেন না। সংশ্লিষ্ট গবেষণার সঙ্গে তুলনা করুন, প্রমাণ যাচাই করুন এবং প্রশ্নটি নির্দিষ্ট ও পরীক্ষাযোগ্য করুন।
+প্রথম পাঠে সামগ্রিক ধারণা নিন, পরের পাঠে পদ্ধতি ও প্রমাণ যাচাই করুন, তারপর নিজের নোটে সীমাবদ্ধতা ও সম্ভাব্য গবেষণা প্রশ্ন লিখুন। একটি পেপারের সীমাবদ্ধতা দেখেই সেটিকে রিসার্চ গ্যাপ ধরে নেবেন না; সংশ্লিষ্ট গবেষণার সঙ্গে তুলনা করে প্রশ্নটি নির্দিষ্ট ও পরীক্ষাযোগ্য করুন। Section 26-এ এই কাঠামোগুলোর প্রয়োগ দেখানো হয়েছে।
 
 ## Repository Structure / রিপোজিটরির বিন্যাস
 
@@ -148,7 +144,7 @@ I have put considerable time and effort into preparing this handbook and have tr
 
 Nevertheless, mistakes or unclear explanations may still remain.
 
-If you notice any factual error, mathematical mistake, incorrect reference, translation issue, or something that could be explained more clearly, I would sincerely appreciate your feedback.
+If you notice a factual error, mathematical mistake, incorrect reference, translation issue, formatting problem, or explanation that could be clearer, I would sincerely appreciate your feedback.
 
 Please [open a GitHub Issue](https://github.com/khalidhasan7343/ml-research-handbook/issues). If possible, include the relevant section or page number, a brief explanation of the issue, and any supporting reference or suggested correction. A correction reporting form is available when you create a new issue.
 
@@ -162,7 +158,7 @@ Thank you for helping make this handbook more accurate and useful for everyone.
 
 তবুও অনিচ্ছাকৃত কোনো ভুল, অসংগতি বা অস্পষ্ট ব্যাখ্যা থেকে যেতে পারে।
 
-আপনার চোখে কোনো তথ্যগত ভুল, গাণিতিক সমস্যা, ভুল রেফারেন্স, অনুবাদের ত্রুটি কিংবা আরও ভালোভাবে ব্যাখ্যা করা সম্ভব এমন কোনো বিষয় ধরা পড়লে আমাকে জানালে আমি আন্তরিকভাবে কৃতজ্ঞ থাকব।
+আপনার চোখে কোনো তথ্যগত ভুল, গাণিতিক সমস্যা, ভুল রেফারেন্স, অনুবাদের ত্রুটি, বিন্যাসের সমস্যা কিংবা আরও ভালোভাবে ব্যাখ্যা করা সম্ভব এমন কোনো বিষয় ধরা পড়লে আমাকে জানালে আমি আন্তরিকভাবে কৃতজ্ঞ থাকব।
 
 অনুগ্রহ করে [GitHub Issue-এর মাধ্যমে জানান](https://github.com/khalidhasan7343/ml-research-handbook/issues)। সম্ভব হলে সংশ্লিষ্ট সেকশন বা পৃষ্ঠা নম্বর, সমস্যার বিবরণ এবং প্রাসঙ্গিক সূত্র উল্লেখ করুন।
 
@@ -170,28 +166,11 @@ Thank you for helping make this handbook more accurate and useful for everyone.
 
 হ্যান্ডবুকটিকে আরও নির্ভুল ও উপযোগী করে তুলতে সহযোগিতা করার জন্য ধন্যবাদ।
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidance on reporting corrections in English or Bangla. A public contact email has not yet been provided; GitHub Issues is the current feedback channel.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidance on reporting corrections in English or Bangla.
 
 ## Version History / সংস্করণের তথ্য
 
 The supplied handbook identifies itself as **Version 4.0**. These repository preparation changes do not assign a new content version or publication date. See [CHANGELOG.md](CHANGELOG.md) for preparation notes and future updates.
-
-## Citation Information / উদ্ধৃতির তথ্য
-
-Please credit **MD Khalid Hasan** and identify the edition you used. No release date or DOI is asserted here. A date-free citation is:
-
-> MD Khalid Hasan. *ML Research Handbook*. Version 4.0. GitHub repository.
-
-[Repository](https://github.com/khalidhasan7343/ml-research-handbook) · [Machine-readable citation](CITATION.cff)
-
-```bibtex
-@manual{hasan_ml_research_handbook,
-  author  = {{MD Khalid Hasan}},
-  title   = {ML Research Handbook},
-  edition = {4.0},
-  url     = {https://github.com/khalidhasan7343/ml-research-handbook}
-}
-```
 
 ## License / লাইসেন্স
 
@@ -207,8 +186,6 @@ The handbook draws on the machine learning and research methodology literature l
 
 ## Contact / যোগাযোগ
 
-**Author:** MD Khalid Hasan
+For corrections and questions about the handbook, please use [GitHub Issues](https://github.com/khalidhasan7343/ml-research-handbook/issues).
 
-**Feedback:** [GitHub Issues](https://github.com/khalidhasan7343/ml-research-handbook/issues)
-
-A public email address will be added when the author supplies one. Until then, please use GitHub Issues for corrections and questions about the handbook.
+হ্যান্ডবুক সম্পর্কে প্রশ্ন বা সংশোধনের প্রস্তাব GitHub Issues-এর মাধ্যমে জানান।
