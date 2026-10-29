@@ -1,0 +1,28 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Microsoft Word temporary/lock files
+~$*.docx
+
+# Generated temporary/build files (keep the supplied PDF and DOCX tracked)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.tmp
+
+# Local Python utilities, if added later
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
