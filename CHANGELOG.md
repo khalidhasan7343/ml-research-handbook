@@ -4,6 +4,10 @@ This file records repository preparation and handbook maintenance. Preparation n
 
 ## Unreleased — public repository preparation
 
+- Added `LICENSE-MIT` for future original standalone software explicitly designated by the author; documented separate license scopes in README and CONTRIBUTING. Handbook content and embedded examples retain CC BY-NC-ND 4.0. The 2026 copyright year follows the existing handbook and license notices.
+- Separated the README paper-analysis workflow from research-gap identification guidance and added the licensing table. Retained direct edition links, bilingual feedback, and GitHub Issues contact.
+- Removed the historical checksum backup and two internal publishing documents from the Git index only after verifying fresh local backups. Existing ignore rules keep their local copies private to this working tree; historical commits still contain them.
+- Limited `SHA256SUMS.txt` to the Markdown, PDF, and DOCX handbook editions and independently verified all three hashes. Left the academic editions, existing LICENSE, citation metadata, and correction form unchanged.
 - Removed the dedicated README citation section and its related guidance while preserving `CITATION.cff`. Consolidated the paper-analysis and research-gap workflow, made GitHub Issues the sole contact channel, and explicitly included formatting problems in the bilingual feedback guidance.
 - Reworked the README with immediate access to Markdown, PDF, and DOCX; a 34-section contents guide; learning paths; and bilingual feedback guidance.
 - Removed the obsolete numbered Section 35 and its contents entry from Markdown; corrected its cover count to 34. Sections 1–34, including the references, were preserved.
