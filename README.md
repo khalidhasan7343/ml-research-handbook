@@ -207,21 +207,6 @@ ml-research-handbook/
 └── LICENSE · LICENSE-MIT
 ```
 
-## Cite This Handbook
-
-Use **Cite this repository** in the sidebar (generated from [`CITATION.cff`](CITATION.cff)), or:
-
-```bibtex
-@book{hasan2026mlresearchhandbook,
-  author    = {Hasan, MD Khalid},
-  title     = {The Machine Learning + Research Paper Reading + Critical Analysis +
-               Research Gap Identification Handbook: A Bilingual (English--Bangla) Guide},
-  edition   = {Final},
-  year      = {2026},
-  url       = {https://github.com/khalidhasan7343/ml-research-handbook}
-}
-```
-
 ## Feedback and Corrections
 
 Found an error, an unclear explanation, a translation problem or a broken reference? Please [open a correction report](https://github.com/khalidhasan7343/ml-research-handbook/issues/new/choose) and mention the chapter or section and the page. English and Bangla are both welcome. Confirmed corrections are listed in [`ERRATA.md`](ERRATA.md).
