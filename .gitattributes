@@ -1,12 +1,18 @@
-# Documentation text uses consistent line endings; keep binaries unchanged
+# Text files: consistent LF line endings
 .gitattributes text eol=lf
 .gitignore text eol=lf
 LICENSE text eol=lf
 LICENSE-MIT text eol=lf
+Makefile text eol=lf
 *.md text eol=lf
 *.txt text eol=lf
-*.pdf binary
-*.docx binary
 *.yml text eol=lf
 *.yaml text eol=lf
 *.cff text eol=lf
+*.typ text eol=lf
+*.bib text eol=lf
+
+# Binaries: never modify
+*.pdf binary
+*.png binary
+*.ttf binary

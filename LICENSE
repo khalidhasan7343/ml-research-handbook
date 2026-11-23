@@ -55,12 +55,19 @@ By exercising the Licensed Rights, You accept and agree to be bound by
 the terms and conditions of that Public License.
 
 =============================================================================
-NOTE ON CITED WORKS
+NOTE ON SCOPE AND CITED WORKS
 =============================================================================
 
-This licence applies to the original text of this handbook only.
+This licence applies to the original text, figures, and PDF edition of
+the ML Research Handbook (Final Edition): the PDF and the book content in
+source/ (main.typ, front/, chapters/, refs.bib).
 
-All third-party works cited in Section 33 (References) remain the
+The Typst template (source/template.typ), the build tooling (Makefile,
+.github/workflows/) and the short Python code snippets printed in
+Chapters 22-29 are licensed separately under the MIT License (see
+LICENSE-MIT). The bundled Noto Serif Bengali font is licensed under the
+SIL Open Font License 1.1 (see source/fonts/licenses/).
+
+All third-party works cited in the References of the book remain the
 property of their respective copyright holders and are referenced here
-under normal academic citation practice. This handbook does not
-reproduce text, figures, tables, or datasets from those works.
+under normal academic citation practice.

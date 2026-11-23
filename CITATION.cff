@@ -1,17 +1,36 @@
 cff-version: 1.2.0
-message: "Please cite the handbook using the preferred citation below."
-title: ML Research Handbook
+message: "If you use this handbook, please cite it as below."
+title: "ML Research Handbook"
+abstract: >-
+  A bilingual (English–Bangla) study and reference handbook that takes
+  students and early-career researchers from machine learning foundations
+  to reading research papers, critical analysis, research gap
+  identification and formulating testable research questions, and on
+  to research with large language models and the path from a proposal
+  to a published paper.
 authors:
   - family-names: Hasan
     given-names: MD Khalid
-version: "4.0"
+    affiliation: "Department of Computer Science and Engineering, United International University"
+version: "Final Edition"
 url: "https://github.com/khalidhasan7343/ml-research-handbook"
+repository-code: "https://github.com/khalidhasan7343/ml-research-handbook"
 license: CC-BY-NC-ND-4.0
+keywords:
+  - machine learning
+  - research methodology
+  - research paper reading
+  - critical analysis
+  - research gap
+  - Bangla
+  - bilingual
 preferred-citation:
-  type: manual
-  title: ML Research Handbook
+  type: book
+  title: "The Machine Learning + Research Paper Reading + Critical Analysis + Research Gap Identification Handbook: A Bilingual (English–Bangla) Guide"
   authors:
     - family-names: Hasan
       given-names: MD Khalid
-  version: "4.0"
+      affiliation: "Department of Computer Science and Engineering, United International University"
+  edition: "Final Edition"
+  year: 2026
   url: "https://github.com/khalidhasan7343/ml-research-handbook"

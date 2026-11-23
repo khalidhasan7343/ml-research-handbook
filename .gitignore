@@ -8,27 +8,7 @@ Desktop.ini
 *.swo
 *~
 
-# Microsoft Word temporary/lock files
-~$*.docx
-
-# Generated temporary/build files (keep the supplied PDF and DOCX tracked)
-*.aux
-*.log
-*.out
-*.toc
-*.synctex.gz
-*.fdb_latexmk
-*.fls
+# Build scratch output (make check / make watch). The published
+# book/ML_Research_Handbook.pdf stays tracked.
+/build/
 *.tmp
-
-# Local Python utilities, if added later
-__pycache__/
-.pytest_cache/
-*.py[cod]
-.venv/
-
-# Private preservation copies and local publication validation
-/SHA256SUMS.original.txt
-/docs/PUBLISHING_CHECKLIST.md
-/docs/README.original.md
-/.publishing-review/

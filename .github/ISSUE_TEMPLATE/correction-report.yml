@@ -1,6 +1,7 @@
 name: Correction report / সংশোধনের প্রতিবেদন
 description: Report an error, unclear explanation, reference problem, or translation issue.
 title: "[Correction] "
+labels: ["correction"]
 body:
   - type: markdown
     attributes:
@@ -20,23 +21,24 @@ body:
         - Unclear explanation
         - Typographical or formatting error
         - Accessibility or navigation
+        - Layout or rendering problem in the PDF
         - Other handbook issue
     validations:
       required: true
   - type: input
     id: section-number
     attributes:
-      label: Section number / সেকশন নম্বর
-      description: Enter the section or subsection, or write “front matter” or “not sure”.
-      placeholder: "Example: 5.2, Section 28, or front matter"
+      label: Chapter or section / অধ্যায় বা সেকশন
+      description: Enter the chapter, section or appendix, or write “front matter” or “not sure”.
+      placeholder: "Example: Section 13.4, Chapter 19, Appendix B, or front matter"
     validations:
       required: true
   - type: input
     id: page-number
     attributes:
       label: Page number (optional) / পৃষ্ঠা নম্বর
-      description: Include the format if useful; Markdown has no fixed page numbers.
-      placeholder: "Example: PDF page 29"
+      description: The page number printed at the bottom of the PDF page.
+      placeholder: "Example: page 83"
     validations:
       required: false
   - type: dropdown
@@ -44,11 +46,10 @@ body:
     attributes:
       label: Where did you find it? / কোন সংস্করণে
       options:
-        - Markdown (Read Online)
-        - PDF
-        - DOCX (Word)
+        - PDF (Final Edition)
+        - Typst source (source/ folder)
         - README or repository documentation
-        - Multiple formats or not sure
+        - Not sure
     validations:
       required: true
   - type: textarea
@@ -83,6 +84,6 @@ body:
     id: additional-comments
     attributes:
       label: Additional comments / অতিরিক্ত মন্তব্য
-      description: Add any other relevant context, including the version if known.
+      description: Add any other relevant context, such as your PDF viewer if the problem is about layout.
     validations:
       required: false

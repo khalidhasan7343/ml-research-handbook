@@ -1,32 +1,40 @@
 # Changelog
 
-This file records repository preparation and handbook maintenance. Preparation notes are not published GitHub releases.
+## Unreleased — Final Edition (2026)
 
-## Unreleased — public repository preparation
+### Added
 
-- Added `LICENSE-MIT` for future original standalone software explicitly designated by the author; documented separate license scopes in README and CONTRIBUTING. Handbook content and embedded examples retain CC BY-NC-ND 4.0. The 2026 copyright year follows the existing handbook and license notices.
-- Separated the README paper-analysis workflow from research-gap identification guidance and added the licensing table. Retained direct edition links, bilingual feedback, and GitHub Issues contact.
-- Removed the historical checksum backup and two internal publishing documents from the Git index only after verifying fresh local backups. Existing ignore rules keep their local copies private to this working tree; historical commits still contain them.
-- Limited `SHA256SUMS.txt` to the Markdown, PDF, and DOCX handbook editions and independently verified all three hashes. Left the academic editions, existing LICENSE, citation metadata, and correction form unchanged.
-- Removed the dedicated README citation section and its related guidance while preserving `CITATION.cff`. Consolidated the paper-analysis and research-gap workflow, made GitHub Issues the sole contact channel, and explicitly included formatting problems in the bilingual feedback guidance.
-- Reworked the README with immediate access to Markdown, PDF, and DOCX; a 34-section contents guide; learning paths; and bilingual feedback guidance.
-- Removed the obsolete numbered Section 35 and its contents entry from Markdown; corrected its cover count to 34. Sections 1–34, including the references, were preserved.
-- Verified that the supplied PDF has 101 pages and 34 sections; left the PDF unchanged.
-- Confirmed that DOCX already ends at Section 34; corrected only its cover count and the spelling of the last-editor author metadata.
-- Added a correction issue form and citation metadata without inventing a publication date, DOI, affiliation, or email address.
-- Updated contribution guidance, precise ignore rules, text attributes, and checksums. Preserved internal publishing files locally while excluding them from the current public file set.
-- Preserved LICENSE unchanged. Its existing note calls References Section 33; the manuscript's References are in Section 34. This discrepancy remains for the author's review.
+- **Final Edition** of the handbook (2026, 199 pages): 29 chapters in eight parts, Appendices A–E, and 133 references, every key idea explained in English and Bangla.
+- **Part VII · Research in the Age of LLMs** (Chapters 22–25): reading LLM-era papers, AI tools in research, Bangla and low-resource ML research, and a case study of "Attention Is All You Need".
+- **Part VIII · From Question to Publication** (Chapters 26–29): research proposals, running a study (seeds, effect sizes, bootstrap intervals, Holm correction), writing the paper, and submission and peer review, with a Bangla mini-project running through Chapters 24–29.
+- Exercises for Chapters 22–29 with answers in the new Appendix E; a proposal template and a rebuttal planner (Appendix A); formulas for comparing systems (Appendix B); eleven new glossary terms (Appendix C).
+- 72 new references, each checked against its primary source in November 2026, and an AI-assistance note on the copyright page.
+- Full Typst source in `source/`, one file per chapter, with `main.typ` as the book's outline. Noto Serif Bengali is bundled with its SIL Open Font License.
+- `Makefile` with `make`, `make watch`, `make check` and `make clean`. Builds are reproducible: the same source produces a byte-identical PDF on every machine.
+- GitHub Actions workflow `build.yml`, which rebuilds the PDF, checks that the committed PDF matches the source, and attaches the build to each run.
+- README redesigned with the cover, sample pages, full contents, reading paths, a Bangla introduction, build instructions and a citation.
+- The preface, reading paths and cover tagline ("… → QUESTIONS → PUBLICATION") now cover Parts VII–VIII.
+- `ERRATA.md`, `.zenodo.json` for DOI archiving, and a social-preview image in `assets/`.
 
-## Author attribution — 2026-10-29
+### Changed
 
-The existing preparation notes record author attribution updates to **MD Khalid Hasan** in the README, Markdown, LICENSE, DOCX, and PDF, including PDF and DOCX author metadata. They record no intended changes to academic explanations, formulas, references, license conditions, or handbook version **4.0**.
+- The PDF is now `book/ML_Research_Handbook.pdf`.
+- The correction report form is updated for the Final Edition (PDF and Typst source).
+- Licensing is clarified: book text and PDF stay CC BY-NC-ND 4.0; `source/template.typ` and the build tooling are MIT.
+- The source template no longer refers to fonts that are not bundled, so builds produce no warnings. The PDF is unchanged.
 
-Original and then-current checksums were recorded separately. The supplied source ZIP is referenced in those earlier notes but was not available in this checkout for independent verification.
+### Fixed
 
-## Repository preparation — 2026-10-29
+- Reference for Stanford CS229 now prints its URL instead of a literal "and others".
+- Section 19.7 printed "** Caution:**" with literal asterisks; it is now bold text.
+- A Bangla line in the Chapter 6 Quick Recap is now styled like the others.
+- Two long, unbreakable lines in Sections 19.6 and 19.7 no longer stretch the text.
 
-The existing preparation notes record the repository layout, download links, checksums, contribution guidance, and local publishing notes. They also record preservation of an earlier README as a local backup. An issue template was mentioned in the notes, but none was present in the audited checkout.
+### Removed
 
-The earlier statement that all editions were byte-for-byte unchanged described that packaging step; it does not describe subsequent attribution and approved section-removal changes.
+- Version 4.0 Markdown (`HANDBOOK.md`) and Word and PDF editions in `editions/`. The Final Edition supersedes them; earlier versions remain in the Git history.
+- `SHA256SUMS.txt` (replaced by reproducible builds and `make check`) and `CONTRIBUTING.md` (corrections now go through the issue form).
 
-**Handbook content version:** The supplied editions identify themselves as **Version 4.0**. No new version or release date is assigned by these repository changes.
+## 4.0 — 2026
+
+- ML Research Handbook, version 4.0: 34 sections in Markdown, PDF, and DOCX editions.

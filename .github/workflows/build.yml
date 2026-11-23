@@ -1,0 +1,50 @@
+name: Build PDF
+
+# Rebuilds the handbook from source/ and fails if the committed
+# book/ML_Research_Handbook.pdf does not match it. The freshly built PDF is
+# attached to every run as a downloadable artifact.
+
+on:
+  push:
+    paths:
+      - "source/**"
+      - "book/ML_Research_Handbook.pdf"
+      - "Makefile"
+      - ".github/workflows/build.yml"
+  pull_request:
+    paths:
+      - "source/**"
+      - "book/ML_Research_Handbook.pdf"
+      - "Makefile"
+      - ".github/workflows/build.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  TYPST_VERSION: "0.15.1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Typst
+        run: |
+          curl -fsSL "https://github.com/typst/typst/releases/download/v${TYPST_VERSION}/typst-x86_64-unknown-linux-musl.tar.xz" \
+            | sudo tar -xJ --strip-components=1 -C /usr/local/bin typst-x86_64-unknown-linux-musl/typst
+          typst --version
+
+      - name: Build and check the committed PDF matches source/
+        run: make check
+
+      - name: Upload PDF
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ML_Research_Handbook
+          path: build/ML_Research_Handbook.pdf
+          if-no-files-found: warn
+          retention-days: 30
